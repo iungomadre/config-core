@@ -25,4 +25,4 @@ Example:
 ## Running (post-configuration)
 
 	chmod +x 
-        ./env.sh
+	./env.sh
