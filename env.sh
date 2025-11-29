@@ -12,12 +12,16 @@ export CONFIG_PATH="${CONFIG_PATH}"
 source "\$CONFIG_PATH/core/aliases.sh"
 source "\$CONFIG_PATH/core/shell.sh"
 
-# Dynamically source all .sh files in the extensions directory
-for extension_file in "\$CONFIG_PATH/extensions/"*.sh; do
-  if [[ -f "\$extension_file" ]]; then
-    source "\$extension_file"
-  fi
-done
+(
+	# Set the flag temporarily
+	setopt null_glob
+	# Dynamically source all .sh files in the extensions directory
+	for extension_file in "\$CONFIG_PATH/extensions/"*.sh; do
+	  if [[ -f "\$extension_file" ]]; then
+	    source "\$extension_file"
+	  fi
+	done
+)
 
 # --- END OF ZSH CONFIGURATION ---
 EOF
