@@ -1,5 +1,6 @@
 # --- Core Configuration Aliases ---
 alias aliases="vim \"$CONFIG_PATH/extensions/aliases.sh\" && config_reload"
+alias core-aliases="vim \"$CONFIG_PATH/core/aliases.sh\" && config_reload"
 alias config='cd $CONFIG_PATH'
 
 # --- Shortcuts ---
