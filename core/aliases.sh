@@ -10,6 +10,7 @@ alias pull="git pull"
 alias glo="git log --oneline"
 alias cm="git commit"
 alias gaa="git add ."
+alias lg="lazygit"
 
 function dev() {
     git switch main
