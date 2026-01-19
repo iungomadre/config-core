@@ -2,7 +2,9 @@
 
 Portable, opinionated terminal-shell config that works on **macOS (zsh)** and **Linux (bash)**.
 
-This repo installs a small managed block into your shell startup file(s) that sets `CONFIG_PATH` and sources `core/init.sh`. The repo then loads core aliases + shell-specific niceties and optionally sources any `extensions/*.sh` files.
+Easily extensible per machine/job due to extension support.
+
+Installs a small managed block into your shell startup file(s) that sets `CONFIG_PATH` and sources `core/init.sh`. The repo then loads core aliases + shell-specific niceties and optionally sources any `extensions/*.sh` files.
 
 ## What you get (features)
 
