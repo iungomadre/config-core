@@ -2,7 +2,7 @@
 
 A script that sets up an opinionated coding development using vim gestures, custom git aliases etc
 
-Configures your local zsh by **overwriting zshrc**
+Configures your local shell by **appending a managed block** to your rc file(s) (`~/.zshrc`, `~/.bashrc`, `~/.bash_profile`).
 
 Core project that can be extended per job, since there's different aliases in different workspaces
 

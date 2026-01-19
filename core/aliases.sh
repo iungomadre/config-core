@@ -1,5 +1,5 @@
 # --- Core Configuration Aliases ---
-alias aliases="vim \"$CONFIG_PATH/extensions/aliases.sh\" && source ~/.zshrc" 
+alias aliases="vim \"$CONFIG_PATH/extensions/aliases.sh\" && config_reload"
 alias config='cd $CONFIG_PATH'
 
 # --- Git Aliases ---
