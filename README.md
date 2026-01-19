@@ -22,6 +22,8 @@ Example:
         /custom_source2.sh
 ```
 
+Additionally, you can create `.gitignore` file to exclude `extensions` directory and commit its content to a different repo
+
 ## Running (post-configuration)
 
 	chmod +x 
