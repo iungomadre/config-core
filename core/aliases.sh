@@ -2,6 +2,9 @@
 alias aliases="vim \"$CONFIG_PATH/extensions/aliases.sh\" && config_reload"
 alias config='cd $CONFIG_PATH'
 
+# --- Shortcuts ---
+alias cl="clear"
+
 # --- Git Aliases ---
 alias st="git status"
 alias fpush="git push -f"
