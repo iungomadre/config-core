@@ -17,14 +17,13 @@ Installs a small managed block into your shell startup file(s) that sets `CONFIG
 - **Quick reload**: `config_reload` to reload this config in the current shell
 
 ## Dependencies
+With some of the dependencies not met, specific functionalities might not work
 
-Required:
 - **A POSIX shell** to run the installer (`/bin/sh`)
-- **git** (used by several aliases/functions)
-
-Recommended / optional:
-- **vim** (used by the `aliases` helper alias)
-- **lazygit** (used by the `lg` alias)
+- **git**
+- **vim**
+- **lazygit**
+- **yazi**
 
 If optional tools are missing, only the related aliases will fail when invoked.
 

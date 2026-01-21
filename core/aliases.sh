@@ -5,6 +5,7 @@ alias config='cd $CONFIG_PATH'
 
 # --- Shortcuts ---
 alias cl="clear"
+alias y="yazi"
 
 # --- Git Aliases ---
 alias st="git status"
